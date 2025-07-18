@@ -1,8 +1,3 @@
 [build]
   command = "npm run build"
-  publish = "dist"
-
-[[plugins]]
-  package = "@netlify/plugin-npm-install"
-  [plugins.inputs]
-    npm_flags = ["--legacy-peer-deps"] 
+  publish = "dist" 
